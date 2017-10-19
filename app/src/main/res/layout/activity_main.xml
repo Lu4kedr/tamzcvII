@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actMain"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     style="@android:style/Theme.Holo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
 
     android:background="@drawable/wall02"
     tools:context="dra0060.tamzcvii.MainActivity">
@@ -65,7 +67,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="19dp"
-        android:onClick="myImageClick"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
